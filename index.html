@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header>
+
+        <div class="user">
+            <img src="user_img.jpg" alt=" Aniket Kumar">
+            <h3 class="name">Aniket Kumar Singh</h3>
+            <p class="post">Front-end developer</p>
+        </div>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#portfolio">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <div id="menu" class="fas fa-bars"></div>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <h3>HI THERE !</h3>
+        <h1>I'M <span class="autotyped"></span></h1>
+        <p>I am a student at Lovely Professional University persuing Bachelor of Technology in Computer Science. Have keen interest in web development.</p>
+        <a href="#about"><button class="btn">About Me <i class="fas fa-user"></i></button></a>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span>About</span> Me </h1>
+
+        <div class="row">
+
+            <div class="info">
+                <h3> <span> Name : </span> Aniket Kumar </h3>
+                <h3> <span> Age : </span> 20 </h3>
+                <h3> <span> Qualification : </span> B.Tech </h3>
+                <h3> <span> Post : </span> Front-end developer </h3>
+                <h3> <span> Language : </span> English, Hindi</h3>
+                <a href="aniketCV.pdf" download><button class="btn"> Download CV <i class="fas fa-download"></i> </button></a>
+            </div>
+
+            <div class="counter">
+                <div class="box">
+                    <span>3</span>
+                    <h3>Porject completed</h3>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- education section starts  -->
+
+    <section class="education" id="education">
+
+        <h1 class="heading"> My <span>Education</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2018</span>
+                <h3>10th standard</h3>
+                <p>Jindal Vidya Mandir, Bellary <br> Central Board of Secondary Education <br> Secured overall 68%</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2020</span>
+                <h3>12th standard</h3>
+                <p>Nandi PU College, Bellary<br> Karnataka Board of the Pre-University Education <br> secured overall 88%</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2020 - present</span>
+                <h3>Bachelor of Technology</h3>
+                <p>Lovely Professional University, Punjab <br> Current CGPA - 7.99 out of 10</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- education section ends -->
+
+    <!-- projects section starts  -->
+
+    <section class="portfolio" id="portfolio">
+
+        <h1 class="heading"> My <span>Projects</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <a href="https://anibaba4296.github.io/SportsClubSite.com/" title="click to open site">
+                    <img src="PRJCT_1.jpeg" alt=" Static sports website">
+                </a>
+            </div>
+
+            <div class="box">
+                <a href="https://github.com/Anibaba4296/onlineFirSystem/" title="click to open site">
+                    <img src="PRJCT_2.jpg" alt=" online FIR system">
+                </a>
+            </div>
+
+            <div class="box">
+                <a href="https://anibaba4296.github.io/Shopping_site.anibaba/" title="click to open site">
+                    <img src="PRJCT_3.jpg" alt=" Static sports website">
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- portfolio section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span>Contact</span> Me </h1>
+
+        <div class="row">
+
+            <div class="content">
+
+                <h3 class="title">contact Info</h3>
+
+                <div class="info">
+                    <h3> <i class="fas fa-envelope"></i> aniketkumar4296@gmail.com </h3>
+                    <h3> <i class="fas fa-phone"></i> +91- 8847633594 </h3>
+                    <h3> <i class="fas fa-phone"></i> +91- 7760897093 </h3>
+                    <h3> <i class="fas fa-map-marker-alt"></i> Punjab, India - 144411. </h3>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- This is for auto typing code, student etc.... -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".autotyped", {
+            strings: ["Coder", "Student", "Web developer", "Footballer"],
+            typeSpeed: 100,
+            backSped: 200,
+            loop: true
+        })
+    </script>
+
+</body>
+
+</html>
