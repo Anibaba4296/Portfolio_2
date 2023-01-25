@@ -312,7 +312,7 @@ header .navbar ul li a:hover {
     line-height: 5rem;
     text-align: center;
     font-size: 2rem;
-    color: #fff;
+    color: rgb(0, 0, 0);
     background: var(--aqua);
 }
 
