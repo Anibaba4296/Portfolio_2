@@ -107,6 +107,7 @@ header .user img {
 header .user img:hover {
     transform: scale(1.2);
     border: solid greenyellow;
+    filter: drop-shadow(5px -8px 5px rgb(114, 45, 45));
 }
 
 header .user .name {
@@ -117,6 +118,7 @@ header .user .name {
 header .user .name:hover {
     font-size: 4.5rem;
     color: #fff;
+    filter: drop-shadow(5px -8px 5px rgb(45, 114, 106));
 }
 
 header .user .post {
@@ -127,6 +129,7 @@ header .user .post {
 header .user .post:hover {
     font-size: 2.3rem;
     color: #eee;
+    filter: drop-shadow(5px -8px 5px rgb(45, 114, 106));
 }
 
 header .navbar {
@@ -278,7 +281,7 @@ header .navbar ul li a:hover {
     width: 32rem;
     margin: 4rem 1rem;
     padding-left: 4rem;
-    border-left: .2rem solid #fff;
+    border-left: .2rem solid aqua;
     position: relative;
 }
 
