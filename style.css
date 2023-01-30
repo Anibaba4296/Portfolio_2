@@ -117,7 +117,7 @@ header .user .name {
 
 header .user .name:hover {
     font-size: 4.5rem;
-    color: #fff;
+    color: aqua;
     filter: drop-shadow(5px -8px 5px rgb(45, 114, 106));
 }
 
@@ -128,7 +128,7 @@ header .user .post {
 
 header .user .post:hover {
     font-size: 2.3rem;
-    color: #eee;
+    color: aqua;
     filter: drop-shadow(5px -8px 5px rgb(45, 114, 106));
 }
 
@@ -329,8 +329,6 @@ header .navbar ul li a:hover {
 
 .portfolio .box-container .box {
     height: 20rem;
-    width: 26rem;
-    border-radius: 1rem;
     margin: 2rem;
     overflow: hidden;
     cursor: pointer;
@@ -340,10 +338,29 @@ header .navbar ul li a:hover {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    border: 4px solid white;
 }
 
 .portfolio .box-container .box:hover img {
-    transform: scale(1.2);
+    /* transform: scale(1.2); */
+    border: 4px solid green;
+}
+
+.portfolio .projectDetails {
+    color: white;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    padding: 2rem;
+    margin: auto;
+    box-sizing: flex;
+    width: 80%;
+    border: 5px double white;
+}
+
+#prjdtls {
+    font-size: medium;
 }
 
 .contact .row {
@@ -404,6 +421,11 @@ header .navbar ul li a:hover {
 .contact .row .content .info h3 i {
     padding-right: 1rem;
     color: var(--aqua);
+}
+
+.contact .row .content .info h3 a {
+    padding-right: 1rem;
+    color: white;
 }
 
 .top {
